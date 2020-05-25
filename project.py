@@ -94,6 +94,12 @@ acc.write("%d" % accuracy)
 acc.close()
 
 
+# In[15]:
+
+
+model.save('model.h5')
+
+
 # In[ ]:
 
 
